@@ -12,7 +12,7 @@ function App() {
               <input class="email-txt" type='text' id='email' />
             </td>
             <td>
-              <a class="signup-btn" href="cart.webex.com">Signup for free</a>
+              <a class="signup-btn" href="https://cart.webex.com">Signup for free</a>
             </td>
           </tr>
         </table>
