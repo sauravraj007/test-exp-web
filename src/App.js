@@ -9,10 +9,10 @@ function App() {
         <table>
           <tr>
             <td>
-              <input class="email-txt" type='text' id='email' />
+              <input className="email-txt" type='text' id='email' />
             </td>
             <td>
-              <a class="signup-btn" href="https://cart.webex.com">Signup for free</a>
+              <a className="signup-btn" href="https://cart.webex.com" target="_blank" rel="noopener noreferrer">Signup for free</a>
             </td>
           </tr>
         </table>
