@@ -5,4 +5,4 @@ jobs:
     name: 'Test Job Github Action Workflow'
     runs-on: ubuntu-latest
     steps:
-      run: echo $PATH
+      - run: echo $PATH
