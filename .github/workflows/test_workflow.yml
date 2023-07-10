@@ -1,0 +1,8 @@
+name: learn-github-actions
+on: [workflow_dispatch]
+jobs:
+  test_job:
+    name: 'Test Job Github Action Workflow'
+    runs-on: ubuntu-latest
+    steps:
+      run: echo $PATH
