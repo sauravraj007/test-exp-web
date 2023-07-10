@@ -5,6 +5,9 @@ jobs:
     name: 'Test Job Github Action Workflow'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: npm install -g yarn
-      - run: yarn
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install yarn
+        run: npm install -g yarn
+      - name: Install dependencies
+        run: yarn
