@@ -1,5 +1,22 @@
 name: learn-github-actions
-on: [workflow_dispatch]
+on: 
+  workflow_dispatch:
+    inputs:
+      notify:
+        description: Post the results to webex
+        required: true
+        default: true
+        type: boolean
+      retry:
+        description: Rerun required for failed test cases in the first try
+        required: true
+        default: true
+        type: boolean
+      environment:
+        description: Test Application Environment
+        required: true
+        default: ci
+        type: string
 jobs:
   test_job:
     name: 'Test Job Github Action Workflow'
